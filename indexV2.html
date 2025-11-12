@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chirag Fitness — Join Now</title>
+
+  <!-- Favicon & Styles -->
+  <link rel="icon" href="https://placehold.co/40x40/ff5722/ffffff?text=CF" />
+  <link rel="stylesheet" href="styleV2.css" />
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="left">
+      <img
+        src="https://placehold.co/40x40/ff5722/ffffff?text=CF"
+        alt="Chirag Fitness logo"
+        width="40"
+        height="40"
+      />
+      <h2>Chirag Fitness</h2>
+    </div>
+
+    <nav class="middle" aria-label="Primary">
+      <ul class="navbar">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#membership">Membership</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#contact-info">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="right">
+      <button class="btn" id="callBtn" aria-label="Call us">Call Us</button>
+      <button class="btn" id="enrollBtn" aria-label="Enroll now">Enroll Now</button>
+    </div>
+  </header>
+
+  <!-- ===== Main ===== -->
+  <main class="main-content-wrapper">
+    <!-- Hero / Signup -->
+    <section id="home" class="signup-hero" aria-labelledby="hero-title">
+      <h1 id="hero-title" class="section-heading">Unleash Your Potential</h1>
+      <p class="section-subtext">
+        Join the best gym in your city and start your transformation today.
+      </p>
+
+      <div class="container" id="signup" role="form">
+        <h1>Sign Up Now</h1>
+        <form id="signupForm" action="#" method="post" novalidate>
+          <div class="form">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+              aria-describedby="nameErr"
+            />
+            <span class="error" id="nameErr"></span>
+          </div>
+
+          <div class="form">
+            <input
+              type="number"
+              id="age"
+              name="age"
+              placeholder="Enter your age"
+              required
+              aria-describedby="ageErr"
+            />
+            <span class="error" id="ageErr"></span>
+          </div>
+
+          <div class="form">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+              aria-describedby="emailErr"
+            />
+            <span class="error" id="emailErr"></span>
+          </div>
+
+          <div class="form">
+            <input
+              type="text"
+              id="address"
+              name="address"
+              placeholder="Enter your address"
+              required
+              aria-describedby="addressErr"
+            />
+            <span class="error" id="addressErr"></span>
+          </div>
+
+          <button class="btn" type="submit">Submit &amp; Get Access</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about-us" class="content-section" aria-labelledby="about-heading">
+      <h2 id="about-heading" class="section-heading">About Chirag Fitness</h2>
+      <p class="section-subtext">
+        We are more than just a gym; we are a community committed to comprehensive
+        wellness. With state-of-the-art equipment, certified personal trainers, and a
+        supportive atmosphere, we help you achieve your goals—whether you're a beginner
+        or an experienced athlete.
+      </p>
+    </section>
+
+    <!-- Membership -->
+    <section id="membership" class="content-section" aria-labelledby="membership-heading">
+      <h2 id="membership-heading" class="section-heading">Membership Options</h2>
+      <p class="section-subtext">
+        Find the perfect plan to fit your lifestyle and fitness objectives.
+      </p>
+
+      <div class="service-cards">
+        <article class="service-card" tabindex="0" aria-label="Basic Access plan">
+          <h3>Basic Access</h3>
+          <p>Access to all gym equipment during standard hours. Perfect for self-starters.</p>
+        </article>
+
+        <article class="service-card" tabindex="0" aria-label="Plus plan with classes">
+          <h3>Plus (Classes Included)</h3>
+          <p>Includes Basic Access plus unlimited entry to all group classes (Yoga, HIIT, Spinning).</p>
+        </article>
+
+        <article class="service-card" tabindex="0" aria-label="Premium plan with personal training">
+          <h3>Premium (PT)</h3>
+          <p>Includes Plus Access and four one-on-one personal training sessions per month.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Classes -->
+    <section id="classes" class="content-section" aria-labelledby="classes-heading">
+      <h2 id="classes-heading" class="section-heading">Featured Classes</h2>
+      <p class="section-subtext">
+        Burn calories and build strength with our high-energy, instructor-led group workouts.
+      </p>
+
+      <div class="service-cards">
+        <article class="service-card" tabindex="0" aria-label="HIIT Blast class">
+          <h3>HIIT Blast</h3>
+          <p>High-Intensity Interval Training designed to maximize fat burn in 30 minutes.</p>
+        </article>
+
+        <article class="service-card" tabindex="0" aria-label="Vinyasa Yoga class">
+          <h3>Vinyasa Yoga</h3>
+          <p>Flow through poses to build core strength, balance, and flexibility.</p>
+        </article>
+
+        <article class="service-card" tabindex="0" aria-label="Spin Cycle class">
+          <h3>Spin Cycle</h3>
+          <p>A music-driven indoor cycling session for cardiovascular health.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact-info" class="content-section" aria-labelledby="contact-heading">
+      <h2 id="contact-heading" class="section-heading">Get in Touch</h2>
+      <p class="section-subtext">
+        We're here to answer any questions about our facilities or plans.
+      </p>
+
+      <div class="contact-details">
+        <p><strong>Phone:</strong> +1 (555) 900-GYM</p>
+        <p>
+          <strong>Email:</strong>
+          <a class="accent-link" href="mailto:info@chiragfitness.com">info@chiragfitness.com</a>
+        </p>
+        <p><strong>Location:</strong> 456 Main Street, Central City, CA 90210</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Toast (notifications) -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    &copy; 2025 Chirag Fitness. All rights reserved. | Developed with HTML, CSS &amp; JS.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scriptV2.js"></script>
+</body>
+</html>
